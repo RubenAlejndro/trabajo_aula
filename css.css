@@ -1,0 +1,189 @@
+/* Estilos generales */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(teyvat.JPG);
+    text-align: center;
+    background-repeat: no-repeat;
+    zoom: 1;
+    max-zoom: 1.1;
+}
+
+header {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,0.2) 0%, rgba(51,21,149,0.9) 35%, rgba(0,212,255,0.9) 100%);
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    margin-top: 1px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    text-decoration: none;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(21,120,149,0.9) 8%, rgba(0,212,255,0.9) 100%);
+    border-radius: 2px;
+    color: black;
+    padding: 8px;
+}
+
+.container {
+    border: solid 1px;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.container p {
+    width: 100px;
+    background-attachment: fixed;
+}
+
+#Inicio {
+    background-image: url(inazuma.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#Acerca {
+    background-image: url(font.png);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#Servicios {
+    background-image: url(captura.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contacto {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,0.5) 0%, rgba(0,212,255,1) 46%, rgba(9,32,121,0.7091211484593838) 51%);
+}
+
+.input {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,0.5) 0%, rgba(0,212,255,1) 46%, rgba(9,32,121,0.7091211484593838) 51%);
+    color: white;
+}
+
+.inpu {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0.2) 46%, rgba(0,0,0,0.5) 76%);
+    color: white;
+    border-radius: 15px;
+    resize: none;
+}
+
+textarea {
+    border-radius: 15px;
+    resize: none;
+}
+
+input {
+    border-radius: 10px;
+}
+
+form input {
+    cursor: pointer;
+}
+
+/* Sección Nosotros */
+
+.nosotros {
+    width: 90%;
+    margin: auto;
+    background: rgb(227,217,14);
+    height: auto;
+    padding: 20px;
+    background: linear-gradient(90deg, rgba(227,217,14,0.1) 18%, rgba(227,217,14,0.1) 18%, rgba(227,217,14,0.1) 18%);
+}
+
+.nosotros p {
+    text-align: justify;
+}
+
+.imagen {
+    width: 200px;
+    height: auto;
+    border-radius: 1000px;
+    text-align: center;
+    margin: auto;
+    background: rgb(14,227,214);
+    background: linear-gradient(90deg, rgba(14,227,214,0.5046393557422969) 18%, rgba(0,249,255,0.5130427170868348) 100%, rgba(226,194,9,0) 100%);
+}
+
+/* Clases Nosotros */
+
+.nosotros2, .nosotros3, .nosotros4 {
+    width: 30%;
+    display: inline-block;
+    background: rgb(227,217,14);
+    height: auto;
+    border: solid;
+    margin: 20px 10px;
+    background: linear-gradient(90deg, rgba(227,217,14,0.1) 18%, rgba(227,217,14,0.1) 18%, rgba(227,217,14,0.1) 18%);
+}
+
+.nosotros2 p, .nosotros3 p, .nosotros4 p {
+    text-align: center;
+    color: white;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 568px) {
+    .container {
+        width: 100%;
+    }
+    .nosotros2, .nosotros3, .nosotros4 {
+        width: 100%;
+    }
+}
+
+.mapa {
+    float: right;
+    margin-right: 10px;
+}
+
+.mapa p {
+    margin-right: 90px;
+}
+
+.continer_footer{
+    background-color: black;
+    color: white;
+}
+
+.info{
+    background-color: grey;
+}
+.imajen{
+
+
